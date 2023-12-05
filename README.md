@@ -12,7 +12,7 @@ $ npm install
 ```
 
 ## Running the app
-
+Before starting the api you must add the database credentials to the **typeormconfig.ts** file. After that run the following commands to start the api.
 ```bash
 # development
 $ npm run start
@@ -20,8 +20,6 @@ $ npm run start
 # watch mode
 $ npm run start:dev
 ```
-
-After this send request to the api endpoints using an http(s) client (postman, insomia) or curl.
 
 ## Test
 
